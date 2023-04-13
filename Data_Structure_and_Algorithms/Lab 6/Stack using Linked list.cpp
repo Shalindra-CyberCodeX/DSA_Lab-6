@@ -140,7 +140,7 @@ int main()
    
    clock_t end_time = clock();
     // Compute the elapsed time in microseconds
-    double elapsed_time = double(end_time - start_time) / CLOCKS_PER_SEC * 1000000;
+    double elapsed_time = double(end_time - start_time) ;
     cout << "Elapsed time: " << elapsed_time << " microseconds" << endl;  
     s.display();
     cout<<"\n";
@@ -154,7 +154,7 @@ int main()
     cout<<"\n";
     clock_t end_time2 = clock();
     // Compute the elapsed time in microseconds
-    double elapsed_time2 = double(end_time2 - start_time2) / CLOCKS_PER_SEC * 1000000;
+    double elapsed_time2 = double(end_time2 - start_time2) ;
     cout << "Elapsed time: " << elapsed_time2 << " microseconds" << endl;  
     
     cout<<"\n";
@@ -172,7 +172,7 @@ int main()
     cout<<"\n";
      clock_t end_time3 = clock();
     // Compute the elapsed time in microseconds
-    double elapsed_time3 = double(end_time3 - start_time3) / CLOCKS_PER_SEC * 1000000;
+    double elapsed_time3 = double(end_time3 - start_time3) ;
     cout << "Elapsed time: " << elapsed_time3 << " microseconds" << endl;
     
     cout<<"\n";
